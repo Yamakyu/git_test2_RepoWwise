@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30C95F38-1D01-44C7-8480-9F24BA58D873}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{30C95F38-1D01-44C7-8480-9F24BA58D873}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="tatoe" ID="{C119487D-83F1-4D13-BFC5-42D4821D3A2B}">
+					<ChildrenList>
+						<Action Name="" ID="{36C37547-FD35-4B28-B481-4F072874FB52}" ShortID="520604075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sample" ID="{4CBF8586-C520-4039-BB41-788564247BBD}" WorkUnitID="{5250224D-D5DA-4059-AB44-24F14EA0C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="can" ID="{DCCB8D62-B1AD-43C9-8D12-E24799183666}">
+					<ChildrenList>
+						<Action Name="" ID="{6C51D74C-679D-4385-B4B1-E7FA27A5348E}" ShortID="633096519">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="canette" ID="{7FF09FC4-1E0C-453A-848C-6650933C6A90}" WorkUnitID="{5250224D-D5DA-4059-AB44-24F14EA0C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

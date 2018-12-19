@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5250224D-D5DA-4059-AB44-24F14EA0C2B0}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5250224D-D5DA-4059-AB44-24F14EA0C2B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sample" ID="{4CBF8586-C520-4039-BB41-788564247BBD}" ShortID="254822752">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66299BC9-B39C-4911-99DE-5EE0FDE2DEF9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8415EB4-0D79-4EDC-A760-1A174829547E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TATOE" ID="{7A06ACB3-2E29-4576-B7E3-05000FB972CB}" ShortID="537489817">
+							<Language>SFX</Language>
+							<AudioFile>TATOE.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TATOE" ID="{7A06ACB3-2E29-4576-B7E3-05000FB972CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="canette" ID="{7FF09FC4-1E0C-453A-848C-6650933C6A90}" ShortID="148453718">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66299BC9-B39C-4911-99DE-5EE0FDE2DEF9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8415EB4-0D79-4EDC-A760-1A174829547E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="canette" ID="{122E4BDC-9F53-406A-AC66-8414385E8AAE}" ShortID="482742984">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.56649808638587E-02"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.94054516717779"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.58472184253691"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>canette.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="canette" ID="{122E4BDC-9F53-406A-AC66-8414385E8AAE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

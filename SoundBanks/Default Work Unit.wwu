@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93394208-B5DC-4474-BDF3-58B64C362D7F}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{93394208-B5DC-4474-BDF3-58B64C362D7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="global" ID="{06280CE1-9FE2-4AD4-9632-EFDAF7131249}">
+					<ObjectInclusionList>
+						<ObjectRef Name="tatoe" ID="{C119487D-83F1-4D13-BFC5-42D4821D3A2B}" WorkUnitID="{30C95F38-1D01-44C7-8480-9F24BA58D873}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
