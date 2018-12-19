@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\gitTest2_wwise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\gitTest2_wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\gitTest2_wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\gitTest2_wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,9 +21,14 @@
 			<ShortName>global</ShortName>
 			<Path>global.bnk</Path>
 			<IncludedEvents>
+				<Event Id="983016353" Name="can" ObjectPath="\Events\Default Work Unit\can"/>
 				<Event Id="1492890300" Name="tatoe" ObjectPath="\Events\Default Work Unit\tatoe"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="482742984" Language="SFX">
+					<ShortName>canette.wav</ShortName>
+					<Path>SFX\canette_21CD8044.wem</Path>
+				</File>
 				<File Id="537489817" Language="SFX">
 					<ShortName>TATOE.wav</ShortName>
 					<Path>SFX\TATOE_56D34C19.wem</Path>

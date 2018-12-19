@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	983016353	can			\Default Work Unit\can	
 	1492890300	tatoe			\Default Work Unit\tatoe	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	537489817	sample	C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\gitTest2_wwise\.cache\Windows\SFX\TATOE_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\sample		124480
+	482742984	canette	C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\.cache\Windows\SFX\canette_21CD8044.wem		\Actor-Mixer Hierarchy\Default Work Unit\canette		123748
+	537489817	sample	C:\Users\abdoul-jabar.mayaki\Documents\Tests_wwise_git_unity\git2\Git_test2\git_test2_RepoWwise\.cache\Windows\SFX\TATOE_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\sample		124480
 
